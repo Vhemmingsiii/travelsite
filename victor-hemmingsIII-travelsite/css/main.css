@@ -1,0 +1,230 @@
+* {
+    text-decoration: none;
+}
+
+.travelnavbar {
+    background-color: #FFFFFF;
+    padding: 15px 100px 15px 100px;
+
+}
+
+.navdiv {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navlogo {
+    color: #335576;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    
+}
+
+li a {
+    color: black;
+    margin-right: 15px;
+}
+
+.homebutton {
+    border-bottom: 3px solid #db7a4E;
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+.hero {
+    background-color: #fefaf5;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+
+}
+
+.textboxleft {
+    color: #335576;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    width: 40rem;
+}
+
+.main__title {
+    font-size: 35px;
+    width: 37rem;
+}
+
+button {
+    border: none;
+    text-align: center;
+    background-color: #db7a4E;
+    color: #FFFFFF;
+    font-size: 1rem;
+    width: 11.25rem;
+    margin: 0;
+    padding: 0.50rem;
+    border-radius: 1.25rem;
+}
+
+.planeimagebox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    width: 27rem;
+}
+
+.reccomendations {
+    background-color: #FFFFFF;
+}
+
+h2 {
+    color: #335576;
+    font-size: 22px;
+    padding-top: 3%;
+    padding-left: 10%;
+    padding-bottom: 1%;
+}
+
+.productcardbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 3%;
+}
+
+.cardcountry {
+    color: white;
+    font-size: 24px;
+    font-weight: 550;
+    padding-top: 135%;
+    padding-left: 50%;
+}
+
+.product__card1 {
+    background-image: url(../assets/Images/hawaii.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 14rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    Width: 14rem;
+    Height: 20rem;
+    Padding: 1rem;
+    Margin: 1.25rem;
+    Border-radius: 5px;
+    box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.2);
+}
+.product__card2 {
+    background-image: url(../assets/Images/iceland.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 14rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    Width: 14rem;
+    Height: 20rem;
+    Padding: 1rem;
+    Margin: 1.25rem;
+    Border-radius: 0.40rem;
+    box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.2);
+}
+.product__card3 {
+    background-image: url(../assets/Images/greece.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 14rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    Width: 14rem;
+    Height: 20rem;
+    Padding: 1rem;
+    Margin: 1.25rem;
+    Border-radius: 0.40rem;
+    box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.2);
+}
+
+.travelfooter {
+    background-color: #fefaf5;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 3rem;
+}
+
+.footertitle {
+    color: #335576;
+    font-size: 20px;
+    font-weight: 800;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    transform: translate(90%, 0);
+}
+.footertitle2 {
+    color: #335576;
+    font-size: 20px;
+    font-weight: 800;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    transform: translate(0, 40%);
+}
+.footertitle3 {
+    color: #335576;
+    font-size: 20px;
+    font-weight: 800;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    transform: translate(-100%, 40%);
+}
+.footertitle4 {
+    color: #335576;
+    font-size: 20px;
+    font-weight: 800;
+    display: flex;
+    flex-direction: column;
+    grid-area: 0.75rem;
+    transform: translate(-60%, 0);
+}
+
+.socialbox {
+    display: flex;
+    flex-direction: row;
+}
+
+.footerh4 {
+    color: #db7a4E;
+    font-weight: 100;
+    font-size: 12px;
+}
+
+.footerp {
+    color: #335576;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.Icon {
+    width: 25px;
+}
+
+.IconF {
+    width: 14px;
+}
+
+.Icon,.IconF {
+    margin-top: 35px;
+    margin-right: 38px;
+}
